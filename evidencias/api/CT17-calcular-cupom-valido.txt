@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Oct 2026 17:58:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 419
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A2F5OeG1GkB95ykEmixUQlnTDEuYtNBdIrBzS%2Bz6YHfuGkG58JK%2ByuugNyW3jnky2Px8z966TWudS5iOBxZ3SmI7N8NUlEgLMbrtKLrLAzMQxWz0ddT61Sr2YRO82QtDQBHF4%2FuGwiRron9jxmcZg%2FhnOyhIHNCeidPnxh2f5ee7QQHK%2F73B50y667c%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4668dbb7c4f5417-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"itens":[{"produtoId":"P002","nome":"Calça Jeans Slim","precoUnitario":139.9,"quantidade":1,"total":139.9},{"produtoId":"P004","nome":"Boné Aba Curva","precoUnitario":49.9,"quantidade":2,"total":99.8}],"subtotal":239.7,"desconto":23.97,"frete":0,"freteGratis":true,"valorFaltanteFreteGratis":0,"total":215.73,"cupom":{"codigo":"BEMVINDO10","aplicado":true,"mensagem":"Cupom aplicado: 10% de desconto nos produtos."}}

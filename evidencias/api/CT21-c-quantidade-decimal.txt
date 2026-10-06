@@ -1,0 +1,15 @@
+HTTP/1.1 422 Unprocessable Entity
+Date: Tue, 06 Oct 2026 18:03:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 145
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dK%2BffWNqRxMy0fHcWC1nNvM5rC%2FqVbuHvGOoj7BuHxJBxI0YPVfVDqbPpiG3GWeaqQ%2BRgYufjOxFfkslFRYaam64x2pd1Dr099Ox3rXpfcB2WMOfApRCBRWftprNpxBaTG%2BgI9y6OqaKE3Pw3vQZ40zEXAoB8ZlQTHtmGmKZYWGfLomioLvSh9uO0DE%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a46695b30e96f1cf-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"QUANTIDADE_INVALIDA","mensagem":"A quantidade deve ser um número inteiro maior ou igual a 1.","campo":"itens[0].quantidade"}}

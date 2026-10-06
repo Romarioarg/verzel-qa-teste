@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Oct 2026 18:02:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 331
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=37t3CyTB5p5juYNm7T40hab%2FSITg6oVfq3bbVtSJWKqfUimy1IYbdHVzMGqFzvim5D%2BTB1li8xrvdqVqtJJoUNsurgvCFEaOgJtrgspQmUfGHF3WIyswSimGG1yGxCwc7D5Aq5x6rSjlbuXdDxVkkLYlB9PA6ekSFb2Coou6gl3nFcht4600j3t%2FEXo%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a466946a7ef9502c-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"itens":[{"produtoId":"P006","nome":"Kit 3 Pares de Meias","precoUnitario":29.9,"quantidade":3,"total":89.7}],"subtotal":89.7,"desconto":8.97,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":110.3,"total":100.63,"cupom":{"codigo":"BEMVINDO10","aplicado":true,"mensagem":"Cupom aplicado: 10% de desconto nos produtos."}}

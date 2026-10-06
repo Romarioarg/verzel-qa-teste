@@ -1,0 +1,15 @@
+HTTP/1.1 201 Created
+Date: Tue, 06 Oct 2026 18:06:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 458
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oWcVkjmK8DHmcPiKLkjtwJ9QfeeXNev25%2BO1Q%2FgktPK2546r9%2FyzDFPr8eYvwdAidtcIJOVRTt50JKzZBNlyP6nletM9ROD5XrQv3YynXYhURPSyC49W9myqYszFzvOiQsYzDUB9xWPltc6XdKS77iinYMrYH3l%2FLBBgZLiO8e%2Bd9w46riLfN%2FrRLCU%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a46699418d47a5c6-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"numero":"VZ-482106","criadoEm":"2026-10-06T18:06:12.734Z","cliente":{"nome":"Maria Silva","email":"maria@exemplo.com","cep":"01310100"},"itens":[{"produtoId":"P005","nome":"Mochila Urbana 20L","precoUnitario":100,"quantidade":1,"total":100}],"subtotal":100,"desconto":10,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":100,"total":109.9,"cupom":{"codigo":"BEMVINDO10","aplicado":true,"mensagem":"Cupom aplicado: 10% de desconto nos produtos."}}

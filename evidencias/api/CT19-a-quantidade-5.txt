@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Oct 2026 18:01:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 234
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OmFYwAUsIqMMyjGbyx9OmnJde15cFaVu4Z62v4dxGuLeCB%2Foz75iDcPchmMv68t5W81DY%2FK4RqraApn%2FW96Lssx%2BctWet2v6i37ENztBksAGIhwPH%2BR9PJNZb32FWmM%2B4fdDU4qspH04D5680e6ocqsqIWCLDrT%2BUw%2B5SH5ULJRjokGBfHtDLcoAFxA%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a46691a02e9e9ddf-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"itens":[{"produtoId":"P006","nome":"Kit 3 Pares de Meias","precoUnitario":29.9,"quantidade":5,"total":149.5}],"subtotal":149.5,"desconto":0,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":50.5,"total":169.4,"cupom":null}

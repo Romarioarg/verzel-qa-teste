@@ -1,0 +1,15 @@
+HTTP/1.1 422 Unprocessable Entity
+Date: Tue, 06 Oct 2026 18:07:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=g2nuCCcsL5qD48e1VQW1weL2a6DkuY%2Bkgufx1jguAZ5J7AyGhsMFKXaePAqoD6Y0pXMPKHT0VU4Hcrmk3GFSyW8UGMjt7fYBNlj5mXu2tecil2RPIe0vHEoOu0lulb3nDxqr5JRjDXWYvPi1De7flkIOwsnynQnnNHgzgsiSI%2FUFtR1aLpK4kZgiKGU%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4669b0e795d1b27-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"DADOS_INVALIDOS","mensagem":"Existem campos inválidos no pedido.","campos":[{"campo":"cliente.cep","mensagem":"Informe um CEP com 8 dígitos."}]}}

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Oct 2026 17:59:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 291
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=N9L%2F%2F7C77p2iaSyu7hXHiI8DKk4YcAsrlObuBPdC4PzsJtcnSw5G7z1fdPUCxTaaBs%2FRY7HLr%2BjtUKGWWBbbXRBxXSjZu5H8D0PNMvlBjZ%2F57a2v2Q0n%2BZPHKGL1FQs0uUbVpk1wmFzfPI3crqbvvGYmjMuHnRiA0HriHnZBg8tWlCRmado5rZl7cRg%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4668f7d3ec7ef86-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"itens":[{"produtoId":"P005","nome":"Mochila Urbana 20L","precoUnitario":100,"quantidade":1,"total":100}],"subtotal":100,"desconto":0,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":100,"total":119.9,"cupom":{"codigo":"NAOEXISTE","aplicado":false,"mensagem":"Cupom inválido."}}

@@ -1,0 +1,15 @@
+HTTP/1.1 405 Method Not Allowed
+Date: Tue, 06 Oct 2026 18:08:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 99
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QcBOZkYE8O3qkaJ%2FMWGQPQlLuHZoksTpqxHfu7XumKl6T%2Bd0oY2Fs5rC8u30INZy5TnLztavKMSXze7o1Wr4KYZTBUmQSLkzmFKBODWZ8MeL2ZPhH3qI4ycDayawvBtJYm3m3%2BZfBVan2YpIwWdkwRT4MF6pTlTimtXuRga%2FJ%2Fc%2BtmctwamIavOWYZ8%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4669cc43d7e6229-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"METODO_NAO_PERMITIDO","mensagem":"O método GET não é permitido nesta rota."}}

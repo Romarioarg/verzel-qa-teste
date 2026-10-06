@@ -1,0 +1,15 @@
+HTTP/1.1 201 Created
+Date: Tue, 06 Oct 2026 18:02:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 371
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=L5AEl%2F16fbdpzmBe79jEYFGRdv1kUSVzl9BcXz1H%2BZgKFEnhrOm2rsuovDJb6vmTvlFiLBiqsrZqIUYasRBz%2BvUW1Su9zT4sHrXm5AHFqOtAQ7llGPoqf0svi%2Fa6RcE3qPCFch97qNkGVooFCyqgLF2E71UOuO5ggVn9KiVMSHQzXLTJkSnMNBdz8J0%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a466937f3a0c9ddf-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"numero":"VZ-103409","criadoEm":"2026-10-06T18:02:16.840Z","cliente":{"nome":"Maria Silva","email":"maria@exemplo.com","cep":"01310100"},"itens":[{"produtoId":"P006","nome":"Kit 3 Pares de Meias","precoUnitario":29.9,"quantidade":6,"total":179.4}],"subtotal":179.4,"desconto":0,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":20.6,"total":199.3,"cupom":null}

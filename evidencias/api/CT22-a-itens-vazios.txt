@@ -1,0 +1,15 @@
+HTTP/1.1 422 Unprocessable Entity
+Date: Tue, 06 Oct 2026 18:04:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xg4mxY2GxMTgZ0WhNg2yExrQ%2FQvhqq3yrQV33PThLkrriaPWS5XykTduC5LShWs1f63XU%2FNwD5aVr7cs5HCGylqK9aFNtrLd%2FbJBhdqscVw1WQ4aQMGR5zmMXnZsoDiQDMaIAB3G0egzwMsJEzMTRFWFHHh58PE5Pm5iznBp%2BM37sdxqPayHLKezM7U%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a46696d94c11f1d9-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"ITENS_OBRIGATORIOS","mensagem":"Informe ao menos um item.","campo":"itens"}}

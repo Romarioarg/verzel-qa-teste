@@ -1,0 +1,15 @@
+HTTP/1.1 422 Unprocessable Entity
+Date: Tue, 06 Oct 2026 18:06:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 81
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H0Zm280lLICamDgXVJsRFDENkGphFPptB3Ej0Ke%2Bufb7mnZwB9oMyyuFIi8iamEW7Mz3da7lLgoob1QXEQr9EE33ltItNbpmuXM9NZz%2FEvtz70oh4b%2FQb3tsyz2aGz8UlNTtTwGl0s5sNSeT%2F8teErCMbVNRwR4QRfg3uYTdfIoWhi%2Bpk0s68yj6vE4%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a46699f329908bdd-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"CUPOM_EXPIRADO","mensagem":"Cupom expirado.","campo":"cupom"}}

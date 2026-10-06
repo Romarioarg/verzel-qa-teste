@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 06 Oct 2026 17:58:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 224
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hVfp%2FplWz7pm0GRgYqsZuq3oJnAzd0ILwjAA4KByzO6CYLIRB7zSH9voXAUOCEZXL%2FmKV%2F9bVWbjrS3KMxudj6wkPE8JQqRAOoC4ePuuoOzRWCfz4lCSTcxdUilkur3bW%2FbK56V5NUA12Hpu9WNANmD0kRayRGe0DZp7nKAV3SoyGE5VKRRhA52cnoE%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4668e5a1a79f1ab-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"itens":[{"produtoId":"P005","nome":"Mochila Urbana 20L","precoUnitario":100,"quantidade":2,"total":200}],"subtotal":200,"desconto":0,"frete":19.9,"freteGratis":false,"valorFaltanteFreteGratis":0,"total":219.9,"cupom":null}

@@ -1,0 +1,15 @@
+HTTP/1.1 404 Not Found
+Date: Tue, 06 Oct 2026 17:57:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 87
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uG9i%2FlA%2Fg552Lq3xlzhQzbwrPvqW3mRbdkBx%2BcSpIRG36d1p%2B45GAPp8oMNE2tCnsXBbnsYJSAdqJN0OHbK%2BGSxSFoHYS9zMbTYVmDnWdwVqglSboUUtZqcbdj6XekRAm7B3uyzbRG2O%2BkP7tMT6P6M%2B%2BG9mYRFk6B6iS7tmQpoBuog5lQ2uj%2Fwrf8k%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4668cd57a70f1a3-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"PRODUTO_NAO_ENCONTRADO","mensagem":"Produto P999 não encontrado."}}

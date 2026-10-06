@@ -1,0 +1,15 @@
+HTTP/1.1 422 Unprocessable Entity
+Date: Tue, 06 Oct 2026 18:07:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 164
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+access-control-allow-headers: content-type
+access-control-allow-methods: GET, POST, OPTIONS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A4Tv7JKoN0yNFpvA5deGDZO%2Bg7K6A1PBRvyrHBfrVD7NZJH%2BFoXq0AgM3w4kVTqYyAyrVzrpos6ycAa8%2B7NLWDhXzijg8lbjr5ejSx46IXn%2FZ0MHHz4q3KxsHmMq13vR78ZDeZzkm%2FCqUt5iS18JaIcnJTS3ZTxwxQ6uIazlI9JNAk%2BkoQ26LR48CbQ%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4669ace6e745b29-GRU
+alt-svc: h3=":443"; ma=86400
+
+{"erro":{"codigo":"DADOS_INVALIDOS","mensagem":"Existem campos inválidos no pedido.","campos":[{"campo":"cliente.email","mensagem":"Informe um e-mail válido."}]}}
