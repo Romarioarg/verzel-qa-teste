@@ -1,18 +1,18 @@
 {
   "name": "verzel-qa-teste",
   "version": "1.0.0",
-  "description": "Em construção.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "description": "Testes da entrega de cupom de desconto e frete grátis da Verzel Store com Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api.spec.js",
+    "report": "playwright show-report"
   },
-  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Romarioarg/verzel-qa-teste.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["qa", "playwright", "test-automation", "api-testing"],
+  "author": "Anderson Romario Gomes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Romarioarg/verzel-qa-teste/issues"
