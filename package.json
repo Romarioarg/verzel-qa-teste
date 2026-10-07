@@ -1,0 +1,25 @@
+{
+  "name": "verzel-qa-teste",
+  "version": "1.0.0",
+  "description": "Em construção.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romarioarg/verzel-qa-teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romarioarg/verzel-qa-teste/issues"
+  },
+  "homepage": "https://github.com/Romarioarg/verzel-qa-teste#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}

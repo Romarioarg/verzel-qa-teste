@@ -26,13 +26,23 @@ Funcionalidade: Frete grátis no carrinho
     Então o frete deve ser R$ 0,00
     E o total deve ser R$ 229,90
 
-  # CA08 - Frete grátis considera o subtotal ANTES do desconto
-  Cenário: CT10 - Manter frete grátis quando o desconto reduz o total abaixo de R$ 200,00
+  # CA08 - Frete grátis considera o subtotal ANTES do desconto (subtotal no valor limite exato)
+  Cenário: CT10-a - Manter frete grátis após desconto com subtotal de R$ 200,00
     Dado que tenho 2 "Mochila Urbana 20L" de R$ 100,00 no carrinho
     Quando aplico o cupom "BEMVINDO10"
     Então o desconto deve ser R$ 20,00
     E o frete deve ser R$ 0,00
     E o total deve ser R$ 180,00
+
+  # CA08 - Mesmo teste com subtotal acima do limite, para isolar a regra do valor limite exato
+  # Adicionado durante a execução: o CT10-a cai no valor do BUG-01 e não permitia avaliar o CA08 sozinho
+  Cenário: CT10-b - Manter frete grátis após desconto com subtotal de R$ 219,80
+    Dado que tenho 1 "Tênis Casual Urbano" de R$ 189,90 no carrinho
+    E tenho 1 "Kit 3 Pares de Meias" de R$ 29,90 no carrinho
+    Quando aplico o cupom "BEMVINDO10"
+    Então o desconto deve ser R$ 21,98
+    E o frete deve ser R$ 0,00
+    E o total deve ser R$ 197,82
 
   # CA09 - O desconto do cupom não incide sobre o frete
   Cenário: CT11 - Desconto calculado somente sobre os produtos
